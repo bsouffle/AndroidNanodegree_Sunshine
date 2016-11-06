@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.soufflet.mobile.sunshine.activities.MainActivity">
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100" app:showAsAction="never" />
+
+    <item android:id="@+id/location_map_viewer"
+        android:title="@string/localition_map_viewer_label"
+        android:orderInCategory="100" app:showAsAction="never" />
+</menu>

@@ -1,50 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:paddingBottom="16dp"
+    android:paddingTop="16dp"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:text="Today, November 3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="50dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginTop="50dp"
-        android:id="@+id/dateTextView"
-        android:textSize="26sp"/>
+    <ListView
+        android:id="@+id/listview_forecast"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 
-    <TextView android:text="21°" android:layout_width="wrap_content"
-        android:id="@+id/tempTextView"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="24sp"
-        android:layout_below="@+id/dateTextView"
-        android:layout_alignLeft="@+id/dateTextView"
-        android:layout_alignStart="@+id/dateTextView"/>
-
-    <TextView
-        android:text="8°"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:textSize="20sp"
-        android:id="@+id/tempTextView2"
-        android:layout_below="@+id/tempTextView"
-        android:layout_alignLeft="@+id/tempTextView"
-        android:layout_alignStart="@+id/tempTextView" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/dateTextView"
-        android:layout_alignRight="@+id/dateTextView"
-        android:layout_marginTop="50dp"
-        android:id="@+id/imageView"
-        app:srcCompat="@android:drawable/sym_def_app_icon" />
-
-
-</RelativeLayout>
+</FrameLayout>
