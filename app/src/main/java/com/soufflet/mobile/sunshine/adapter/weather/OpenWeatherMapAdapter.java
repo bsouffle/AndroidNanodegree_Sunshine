@@ -20,7 +20,7 @@ public class OpenWeatherMapAdapter {
 
     private static final String LOG_TAG = OpenWeatherMapAdapter.class.getSimpleName();
 
-    private static final String API_KEY = "96629f42f23c0a7be6120d261040cc8e";
+    private static final String API_KEY = "key";
     private static final String FORECAST_BASE_URL = "http://api.openweathermap.org/data/2.5/forecast/daily?";
     private static final String QUERY_PARAM = "q";
     private static final String FORMAT_PARAM = "mode";
